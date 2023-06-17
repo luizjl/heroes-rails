@@ -1,0 +1,2 @@
+class Herroo < ApplicationRecord
+end

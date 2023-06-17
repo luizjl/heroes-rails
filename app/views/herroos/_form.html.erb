@@ -1,0 +1,27 @@
+<%= form_with(model: herroo) do |form| %>
+  <% if herroo.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(herroo.errors.count, "error") %> prohibited this herroo from being saved:</h2>
+
+      <ul>
+        <% herroo.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :nome %>
+    <%= form.text_field :nome %>
+  </div>
+
+  <div class="field">
+    <%= form.label :apelido %>
+    <%= form.text_field :apelido %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
