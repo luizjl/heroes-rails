@@ -35,6 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/plugin-proposal-private-property-in-object", "virtual:d99c349f02410da4a9d2df739ffdd3ac251fad2f86e5af661abe12430b09694d9bda7c5e24c8ef087e099c58aff8e082e5b2766814fe0bd5f8492299cf1593c8#npm:7.21.11"],\
             ["@babel/plugin-syntax-dynamic-import", "virtual:f76783368a0ac05a36044eb98b0d83b2d23a367ce193751bc76d9d77bae62c976a7b0c0223a3daa364f6d38ea7968c71803ffd3de3f0891996f978327ee25a79#npm:7.8.3"],\
             ["@babel/plugin-transform-destructuring", "virtual:f76783368a0ac05a36044eb98b0d83b2d23a367ce193751bc76d9d77bae62c976a7b0c0223a3daa364f6d38ea7968c71803ffd3de3f0891996f978327ee25a79#npm:7.22.5"],\
+            ["@babel/plugin-transform-runtime", "virtual:f76783368a0ac05a36044eb98b0d83b2d23a367ce193751bc76d9d77bae62c976a7b0c0223a3daa364f6d38ea7968c71803ffd3de3f0891996f978327ee25a79#npm:7.22.5"],\
             ["@rails/actioncable", "npm:6.1.7"],\
             ["@rails/activestorage", "npm:6.1.7"],\
             ["@rails/ujs", "npm:6.1.7"],\
@@ -6542,6 +6543,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/plugin-proposal-private-property-in-object", "virtual:d99c349f02410da4a9d2df739ffdd3ac251fad2f86e5af661abe12430b09694d9bda7c5e24c8ef087e099c58aff8e082e5b2766814fe0bd5f8492299cf1593c8#npm:7.21.11"],\
             ["@babel/plugin-syntax-dynamic-import", "virtual:f76783368a0ac05a36044eb98b0d83b2d23a367ce193751bc76d9d77bae62c976a7b0c0223a3daa364f6d38ea7968c71803ffd3de3f0891996f978327ee25a79#npm:7.8.3"],\
             ["@babel/plugin-transform-destructuring", "virtual:f76783368a0ac05a36044eb98b0d83b2d23a367ce193751bc76d9d77bae62c976a7b0c0223a3daa364f6d38ea7968c71803ffd3de3f0891996f978327ee25a79#npm:7.22.5"],\
+            ["@babel/plugin-transform-runtime", "virtual:f76783368a0ac05a36044eb98b0d83b2d23a367ce193751bc76d9d77bae62c976a7b0c0223a3daa364f6d38ea7968c71803ffd3de3f0891996f978327ee25a79#npm:7.22.5"],\
             ["@rails/actioncable", "npm:6.1.7"],\
             ["@rails/activestorage", "npm:6.1.7"],\
             ["@rails/ujs", "npm:6.1.7"],\
