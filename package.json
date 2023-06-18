@@ -1,6 +1,9 @@
 {
   "name": "heros",
   "private": true,
+  "engines": {
+    "node": "16.17.0"
+  },
   "dependencies": {
     "@babel/core": "^7.22.5",
     "@babel/plugin-proposal-class-properties": "^7.18.6",
